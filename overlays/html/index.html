@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Overlays — Formation Martinique</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Nunito', sans-serif; background: #1a1a1a; color: #fff; padding: 20px; }
+  h1 { text-align: center; margin-bottom: 30px; font-size: 24px; }
+  .grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+  .card { background: #222; border-radius: 12px; padding: 16px; width: 280px; }
+  .card h3 { font-size: 13px; color: #F07D00; margin-bottom: 8px; }
+  .card .preview {
+    width: 248px;
+    height: 441px; /* 9:16 ratio */
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    /* Checkerboard = transparent */
+    background: repeating-conic-gradient(#333 0% 25%, #444 0% 50%) 0 0 / 20px 20px;
+  }
+  .card button {
+    margin-top: 8px; width: 100%; padding: 8px;
+    background: #F07D00; color: #000; border: none; border-radius: 6px;
+    font-weight: bold; cursor: pointer; font-size: 13px;
+  }
+  .card button:hover { background: #ff9020; }
+
+  /* ============================================ */
+  /* OVERLAY FRAMES — Scale: 248/1080 = 0.2296    */
+  /* ============================================ */
+  .overlay-frame {
+    width: 1080px; height: 1920px;
+    transform: scale(0.2296);
+    transform-origin: top left;
+    position: absolute; top: 0; left: 0;
+  }
+
+  /* --- A1 Bandeau Titre --- */
+  .ov-bandeau {
+    position: absolute; top: 400px; left: 50%; transform: translateX(-50%);
+    background: #F07D00; padding: 20px 48px; border-radius: 8px;
+    text-align: center;
+  }
+  .ov-bandeau h1 {
+    font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    color: #fff; letter-spacing: 3px; line-height: 1.1; white-space: nowrap;
+  }
+
+  /* --- G4 Tag Localisation --- */
+  .ov-tag-loc {
+    position: absolute; bottom: 300px; left: 0;
+    background: rgba(0,0,0,0.6); border-left: 6px solid #F07D00;
+    padding: 22px 28px; display: flex; align-items: flex-start; gap: 14px;
+  }
+  .ov-tag-loc .pin { font-size: 40px; color: #fff; line-height: 1; }
+  .ov-tag-loc .l1 {
+    font-family: 'Bebas Neue', sans-serif; font-size: 52px;
+    color: #F07D00; letter-spacing: 2px;
+  }
+  .ov-tag-loc .l2 {
+    font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 30px;
+    color: #ccc; margin-top: 4px;
+  }
+
+  /* --- G1 Lower Third --- */
+  .ov-lower-third {
+    position: absolute; bottom: 380px; left: 54px;
+  }
+  .ov-lower-third .bloc1 {
+    background: #F07D00; padding: 12px 32px;
+    font-family: 'Bebas Neue', sans-serif; font-size: 80px;
+    color: #fff; letter-spacing: 3px; line-height: 1.1;
+  }
+  .ov-lower-third .bloc2 {
+    background: rgba(0,0,0,0.6); padding: 10px 32px;
+    font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 36px;
+    color: #fff;
+  }
+
+  /* --- A3 Statistique --- */
+  .ov-stat {
+    position: absolute; top: 50%; right: 54px; transform: translateY(-50%);
+    background: rgba(0,0,0,0.6); border-left: 6px solid #F07D00;
+    border-radius: 12px; padding: 32px; width: 560px;
+  }
+  .ov-stat p {
+    font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 42px;
+    color: #fff; line-height: 1.4;
+  }
+
+  /* --- C1 Checklist --- */
+  .ov-checklist {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    background: rgba(0,0,0,0.6); border-left: 6px solid #F07D00;
+    border-radius: 12px; padding: 32px; width: 560px;
+  }
+  .ov-checklist.right { right: 54px; }
+  .ov-checklist.left { left: 54px; }
+  .ov-checklist ul { list-style: none; }
+  .ov-checklist li {
+    font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 38px;
+    color: #fff; margin-bottom: 20px; display: flex; align-items: center; gap: 16px;
+  }
+  .ov-checklist li .check {
+    color: #F07D00; font-size: 32px; min-width: 36px;
+  }
+
+  /* --- A2 Crédibilité --- */
+  .ov-quote {
+    position: absolute; top: 50%; right: 54px; transform: translateY(-50%);
+    background: rgba(0,0,0,0.6); border-left: 6px solid #F07D00;
+    border-radius: 12px; padding: 32px; width: 560px; position: absolute;
+  }
+  .ov-quote .guillemet {
+    font-family: 'Bebas Neue', sans-serif; font-size: 120px;
+    color: rgba(240,125,0,0.3); line-height: 0.8; margin-bottom: -20px;
+  }
+  .ov-quote .texte {
+    font-family: 'Nunito', sans-serif; font-weight: 700; font-style: italic;
+    font-size: 40px; color: #fff; line-height: 1.4; margin-bottom: 16px;
+  }
+  .ov-quote .attribution {
+    font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 30px;
+    color: #F07D00;
+  }
+
+  /* --- F1 CTA --- */
+  .ov-cta {
+    position: absolute; top: 180px; left: 50%; transform: translateX(-50%);
+    text-align: center;
+  }
+  .ov-cta .btn-main {
+    background: #F07D00; border-radius: 8px;
+    padding: 20px 60px; display: inline-flex; align-items: center; gap: 20px;
+    width: 680px; justify-content: center;
+  }
+  .ov-cta .btn-main span {
+    font-family: 'Bebas Neue', sans-serif; font-size: 72px;
+    color: #1a1a1a; letter-spacing: 3px;
+  }
+  .ov-cta .btn-main .arrow { font-size: 56px; color: #1a1a1a; }
+  .ov-cta .pill {
+    margin-top: 24px; display: inline-block;
+    border: 2px solid #fff; border-radius: 50px; padding: 14px 40px;
+    font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 34px;
+    color: #fff;
+  }
+  .ov-cta .phone {
+    margin-top: 16px;
+    font-family: 'Nunito', sans-serif; font-size: 28px; color: #6B6B6B;
+  }
+  .ov-cta .sub {
+    margin-top: 12px;
+    font-family: 'Nunito', sans-serif; font-size: 26px; color: #6B6B6B;
+  }
+</style>
+</head>
+<body>
+
+<h1>Overlays — Formation Drainage Lymphatique Martinique</h1>
+<p style="text-align:center;color:#888;margin-bottom:24px;">Fond damier = transparent. Cliquez "Exporter PNG" pour télécharger.</p>
+
+<div class="grid">
+
+  <!-- OVERLAY 1 — A1 Bandeau Titre -->
+  <div class="card">
+    <h3>#1 — A1 Bandeau Titre</h3>
+    <div class="preview" id="prev1">
+      <div class="overlay-frame" id="ov1">
+        <div class="ov-bandeau">
+          <h1>FORMATION DRAINAGE LYMPHATIQUE</h1>
+        </div>
+      </div>
+    </div>
+    <button onclick="exportOverlay('ov1','overlay_01_A1_bandeau_titre')">Exporter PNG</button>
+  </div>
+
+  <!-- OVERLAY 2 — G4 Tag Localisation -->
+  <div class="card">
+    <h3>#2 — G4 Tag Localisation</h3>
+    <div class="preview" id="prev2">
+      <div class="overlay-frame" id="ov2">
+        <div class="ov-tag-loc">
+          <div class="pin">📍</div>
+          <div>
+            <div class="l1">MARTINIQUE — ANTILLES</div>
+            <div class="l2">Prochaine session sur place</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button onclick="exportOverlay('ov2','overlay_02_G4_tag_localisation')">Exporter PNG</button>
+  </div>
+
+  <!-- OVERLAY 3 — G1 Lower Third -->
+  <div class="card">
+    <h3>#3 — G1 Lower Third Identité</h3>
+    <div class="preview" id="prev3">
+      <div class="overlay-frame" id="ov3">
+        <div class="ov-lower-third">
+          <div class="bloc1">SAMUEL PINCEAU</div>
+          <div class="bloc2">Massothérapeute agréé · Québec</div>
+        </div>
+      </div>
+    </div>
+    <button onclick="exportOverlay('ov3','overlay_03_G1_lower_third')">Exporter PNG</button>
+  </div>
+
+  <!-- OVERLAY 4 — A3 Statistique -->
+  <div class="card">
+    <h3>#4 — A3 Statistique Clé</h3>
+    <div class="preview" id="prev4">
+      <div class="overlay-frame" id="ov4">
+        <div class="ov-stat">
+          <p>Rétention · Jambes lourdes · Récupération post-op</p>
+        </div>
+      </div>
+    </div>
+    <button onclick="exportOverlay('ov4','overlay_04_A3_statistique')">Exporter PNG</button>
+  </div>
+
+  <!-- OVERLAY 5 — C1 Checklist Programme -->
+  <div class="card">
+    <h3>#5 — C1 Checklist Programme</h3>
+    <div class="preview" id="prev5">
+      <div class="overlay-frame" id="ov5">
+        <div class="ov-checklist right">
+          <ul>
+            <li><span class="check">✓</span> Connaître la lymphe</li>
+            <li><span class="check">✓</span> Comprendre la congestion</li>
+            <li><span class="check">✓</span> Pathologies de rétention</li>
+            <li><span class="check">✓</span> Ateliers pratiques</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <button onclick="exportOverlay('ov5','overlay_05_C1_checklist_programme')">Exporter PNG</button>
+  </div>
+
+  <!-- OVERLAY 6 — C1 Checklist Techniques -->
+  <div class="card">
+    <h3>#6 — C1 Checklist Techniques</h3>
+    <div class="preview" id="prev6">
+      <div class="overlay-frame" id="ov6">
+        <div class="ov-checklist left">
+          <ul>
+            <li><span class="check">✓</span> Réflexologie plantaire</li>
+            <li><span class="check">✓</span> Techniques de drainage</li>
+            <li><span class="check">✓</span> Palper-rouler & ventouse</li>
+            <li><span class="check">✓</span> B.A.-BA du massage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <button onclick="exportOverlay('ov6','overlay_06_C1_checklist_techniques')">Exporter PNG</button>
+  </div>
+
+  <!-- OVERLAY 7 — A2 Crédibilité -->
+  <div class="card">
+    <h3>#7 — A2 Crédibilité Formateur</h3>
+    <div class="preview" id="prev7">
+      <div class="overlay-frame" id="ov7">
+        <div class="ov-quote">
+          <div class="guillemet">"</div>
+          <div class="texte">7 techniques maîtrisées · Agréé depuis 2018 · Clientèle fidèle aux Antilles</div>
+          <div class="attribution">— Samuel Pinceau · Formateur</div>
+        </div>
+      </div>
+    </div>
+    <button onclick="exportOverlay('ov7','overlay_07_A2_credibilite')">Exporter PNG</button>
+  </div>
+
+  <!-- OVERLAY 8 — F1 CTA -->
+  <div class="card">
+    <h3>#8 — F1 CTA Inscription</h3>
+    <div class="preview" id="prev8">
+      <div class="overlay-frame" id="ov8">
+        <div class="ov-cta">
+          <div class="btn-main">
+            <span>S'INSCRIRE</span>
+            <div class="arrow">→</div>
+          </div>
+          <div class="pill">spmassotherapeute.com</div>
+          <div class="phone">(581) 305-1499</div>
+          <div class="sub">Places limitées — Formation en Martinique</div>
+        </div>
+      </div>
+    </div>
+    <button onclick="exportOverlay('ov8','overlay_08_F1_cta_inscription')">Exporter PNG</button>
+  </div>
+
+</div>
+
+<!-- html2canvas for PNG export -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+async function exportOverlay(elementId, filename) {
+  const el = document.getElementById(elementId);
+  // Reset transform for full-size capture
+  const origTransform = el.style.transform;
+  const origOrigin = el.style.transformOrigin;
+  el.style.transform = 'none';
+  el.style.transformOrigin = 'top left';
+
+  // Temporarily move to a fixed container for capture
+  const container = document.createElement('div');
+  container.style.cssText = 'position:fixed;top:0;left:0;width:1080px;height:1920px;z-index:9999;overflow:hidden;background:transparent;';
+  document.body.appendChild(container);
+  const parent = el.parentElement;
+  container.appendChild(el);
+
+  try {
+    const canvas = await html2canvas(el, {
+      width: 1080,
+      height: 1920,
+      backgroundColor: null, // Transparent!
+      scale: 1,
+      useCORS: true,
+    });
+
+    // Download
+    const link = document.createElement('a');
+    link.download = filename + '.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  } catch (e) {
+    alert('Erreur export: ' + e.message);
+  }
+
+  // Restore
+  parent.appendChild(el);
+  el.style.transform = origTransform;
+  el.style.transformOrigin = origOrigin;
+  container.remove();
+}
+</script>
+
+</body>
+</html>

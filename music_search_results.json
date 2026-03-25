@@ -1,0 +1,856 @@
+[
+  {
+    "id": 276,
+    "title": "Tropical Breeze",
+    "time": "1:24",
+    "seconds": 84,
+    "popularity": 43,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Kike Gutz",
+      "url": "/artist/kike-gutz"
+    },
+    "genres": [
+      {
+        "name": "Reggae",
+        "url": "/reggae"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Groovy",
+        "url": "/groovy"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/medium-shot-men-with-braids-portrait.jpg"
+  },
+  {
+    "id": 353,
+    "title": "Coastal Serenity",
+    "time": "2:38",
+    "seconds": 158,
+    "popularity": 45,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Kike Gutz",
+      "url": "/artist/kike-gutz"
+    },
+    "genres": [
+      {
+        "name": "Lounge",
+        "url": "/lounge"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Laid Back",
+        "url": "/laid-back"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/captivating-portrait-young-woman-pastel-harmony.jpg"
+  },
+  {
+    "id": 2977,
+    "title": "Hawaiian Vacation",
+    "time": "1:07",
+    "seconds": 67,
+    "popularity": 610,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Nonak",
+      "url": "/artist/nonak"
+    },
+    "genres": [
+      {
+        "name": "Pop",
+        "url": "/pop"
+      },
+      {
+        "name": "Blues",
+        "url": "/blues"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Laid Back",
+        "url": "/laid-back"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      },
+      {
+        "name": "Hopeful",
+        "url": "/hopeful"
+      },
+      {
+        "name": "Melancholic",
+        "url": "/melancholic"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__the-style-is-candid-image-photography-with-natural__87372.jpeg"
+  },
+  {
+    "id": 2338,
+    "title": "Chill Vibes Only",
+    "time": "3:53",
+    "seconds": 233,
+    "popularity": 277,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Kike Gutz",
+      "url": "/artist/kike-gutz"
+    },
+    "genres": [
+      {
+        "name": "Lofi",
+        "url": "/lofi"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Laid Back",
+        "url": "/laid-back"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      },
+      {
+        "name": "Sentimental",
+        "url": "/sentimental"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/hd-digital-art-wallpaper-background.jpg"
+  },
+  {
+    "id": 4456,
+    "title": "Chill City Sunset",
+    "time": "2:04",
+    "seconds": 124,
+    "popularity": 131,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Kike Gutz",
+      "url": "/artist/kike-gutz"
+    },
+    "genres": [
+      {
+        "name": "Lounge",
+        "url": "/lounge"
+      },
+      {
+        "name": "Lofi",
+        "url": "/lofi"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Laid Back",
+        "url": "/laid-back"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/Chill_City_Sunset.jpg"
+  },
+  {
+    "id": 5305,
+    "title": "528 Hz Healing Meditation Tones",
+    "time": "2:04",
+    "seconds": 124,
+    "popularity": 151,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Off Beat",
+      "url": "/artist/off-beat"
+    },
+    "genres": [
+      {
+        "name": "Ambient",
+        "url": "/ambient"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Laid Back",
+        "url": "/laid-back"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      },
+      {
+        "name": "Hopeful",
+        "url": "/hopeful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__a-digital-art-image-shows-a-dark-silhouette-of-a-m__86269.png"
+  },
+  {
+    "id": 93,
+    "title": "Ambient Sea",
+    "time": "3:09",
+    "seconds": 189,
+    "popularity": 331,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Off Beat",
+      "url": "/artist/off-beat"
+    },
+    "genres": [
+      {
+        "name": "Ambient",
+        "url": "/ambient"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/Captura_de_pantalla_2024-06-18_165340.jpg"
+  },
+  {
+    "id": 5585,
+    "title": "Peaceful Reflections",
+    "time": "1:56",
+    "seconds": 116,
+    "popularity": 117,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "müxa",
+      "url": "/artist/müxa"
+    },
+    "genres": [
+      {
+        "name": "World",
+        "url": "/world"
+      },
+      {
+        "name": "Ambient",
+        "url": "/ambient"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Laid Back",
+        "url": "/laid-back"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      },
+      {
+        "name": "Soulful",
+        "url": "/soulful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/Peaceful_Reflections.jpg"
+  },
+  {
+    "id": 98,
+    "title": "Color Ambience",
+    "time": "2:46",
+    "seconds": 166,
+    "popularity": 201,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Off Beat",
+      "url": "/artist/off-beat"
+    },
+    "genres": [
+      {
+        "name": "Ambient",
+        "url": "/ambient"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/Captura_de_pantalla_2024-06-18_091456.jpg"
+  },
+  {
+    "id": 862,
+    "title": "Silent Shimmer",
+    "time": "2:11",
+    "seconds": 131,
+    "popularity": 124,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Off Beat",
+      "url": "/artist/off-beat"
+    },
+    "genres": [
+      {
+        "name": "Ambient",
+        "url": "/ambient"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/Captura_de_pantalla_2024-08-27_084834.jpg"
+  },
+  {
+    "id": 4874,
+    "title": "Au Du",
+    "time": "2:20",
+    "seconds": 140,
+    "popularity": 51,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Off Beat",
+      "url": "/artist/off-beat"
+    },
+    "genres": [
+      {
+        "name": "Corporate",
+        "url": "/corporate"
+      },
+      {
+        "name": "Latin",
+        "url": "/latin"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Hopeful",
+        "url": "/hopeful"
+      },
+      {
+        "name": "Upbeat",
+        "url": "/upbeat"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/ChatGPT_Image_Jul_15_2025_04_38_17_PM.png"
+  },
+  {
+    "id": 5411,
+    "title": "Riddim Bloom",
+    "time": "1:55",
+    "seconds": 115,
+    "popularity": 21,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "MudiG",
+      "url": "/artist/mudig"
+    },
+    "genres": [
+      {
+        "name": "Afrobeat",
+        "url": "/afrobeat"
+      },
+      {
+        "name": "World",
+        "url": "/world"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Energetic",
+        "url": "/energetic"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__a-minimal-and-vibrant-cover-featuring-a-single-tro__14593.jpg"
+  },
+  {
+    "id": 6747,
+    "title": "Rincón Cubano",
+    "time": "3:09",
+    "seconds": 189,
+    "popularity": 40,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "MudiG",
+      "url": "/artist/mudig"
+    },
+    "genres": [
+      {
+        "name": "Acoustic",
+        "url": "/acoustic"
+      },
+      {
+        "name": "World",
+        "url": "/world"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Energetic",
+        "url": "/energetic"
+      },
+      {
+        "name": "Hopeful",
+        "url": "/hopeful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__a-vibrant-contemporary-street-scene-in-havana-cuba__67496.jpeg"
+  },
+  {
+    "id": 5308,
+    "title": "Tun Up Di Thing",
+    "time": "3:05",
+    "seconds": 185,
+    "popularity": 39,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Off Beat",
+      "url": "/artist/off-beat"
+    },
+    "genres": [
+      {
+        "name": "Pop",
+        "url": "/pop"
+      },
+      {
+        "name": "Reggae",
+        "url": "/reggae"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Groovy",
+        "url": "/groovy"
+      },
+      {
+        "name": "Upbeat",
+        "url": "/upbeat"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__a-portrait-of-a-black-man-around-30-years-old-with__49587.png"
+  },
+  {
+    "id": 5589,
+    "title": "Amelia",
+    "time": "1:47",
+    "seconds": 107,
+    "popularity": 17,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "müxa",
+      "url": "/artist/müxa"
+    },
+    "genres": [
+      {
+        "name": "Pop",
+        "url": "/pop"
+      },
+      {
+        "name": "Electronic",
+        "url": "/electronic"
+      },
+      {
+        "name": "Afrobeat",
+        "url": "/afrobeat"
+      },
+      {
+        "name": "Latin",
+        "url": "/latin"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Groovy",
+        "url": "/groovy"
+      },
+      {
+        "name": "Laid Back",
+        "url": "/laid-back"
+      },
+      {
+        "name": "Sentimental",
+        "url": "/sentimental"
+      },
+      {
+        "name": "Upbeat",
+        "url": "/upbeat"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/Amelia.jpg"
+  },
+  {
+    "id": 276,
+    "title": "Tropical Breeze",
+    "time": "1:24",
+    "seconds": 84,
+    "popularity": 43,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Kike Gutz",
+      "url": "/artist/kike-gutz"
+    },
+    "genres": [
+      {
+        "name": "Reggae",
+        "url": "/reggae"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Groovy",
+        "url": "/groovy"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/medium-shot-men-with-braids-portrait.jpg"
+  },
+  {
+    "id": 2338,
+    "title": "Chill Vibes Only",
+    "time": "3:53",
+    "seconds": 233,
+    "popularity": 277,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Kike Gutz",
+      "url": "/artist/kike-gutz"
+    },
+    "genres": [
+      {
+        "name": "Lofi",
+        "url": "/lofi"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Laid Back",
+        "url": "/laid-back"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      },
+      {
+        "name": "Sentimental",
+        "url": "/sentimental"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/hd-digital-art-wallpaper-background.jpg"
+  },
+  {
+    "id": 4456,
+    "title": "Chill City Sunset",
+    "time": "2:04",
+    "seconds": 124,
+    "popularity": 131,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Kike Gutz",
+      "url": "/artist/kike-gutz"
+    },
+    "genres": [
+      {
+        "name": "Lounge",
+        "url": "/lounge"
+      },
+      {
+        "name": "Lofi",
+        "url": "/lofi"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Laid Back",
+        "url": "/laid-back"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/Chill_City_Sunset.jpg"
+  },
+  {
+    "id": 273,
+    "title": "Mystic Island",
+    "time": "2:45",
+    "seconds": 165,
+    "popularity": 30,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Kike Gutz",
+      "url": "/artist/kike-gutz"
+    },
+    "genres": [
+      {
+        "name": "Reggae",
+        "url": "/reggae"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Groovy",
+        "url": "/groovy"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/colorful-poster-with-woman-wearing-green-headband-green-headband.jpg"
+  },
+  {
+    "id": 271,
+    "title": "Cool Runnings",
+    "time": "1:11",
+    "seconds": 71,
+    "popularity": 34,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Kike Gutz",
+      "url": "/artist/kike-gutz"
+    },
+    "genres": [
+      {
+        "name": "Reggae",
+        "url": "/reggae"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Groovy",
+        "url": "/groovy"
+      },
+      {
+        "name": "Peaceful",
+        "url": "/peaceful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/attractive-man-with-beach-glasses-summer-look-beauty-concept-summer-emotions.jpg"
+  },
+  {
+    "id": 2485,
+    "title": "Mellow Motion",
+    "time": "1:40",
+    "seconds": 100,
+    "popularity": 55,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "Nonak",
+      "url": "/artist/nonak"
+    },
+    "genres": [
+      {
+        "name": "Synthwave",
+        "url": "/synthwave"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Energetic",
+        "url": "/energetic"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__a-robot-skateboarding-in-a-futuristic-city-with-in__26325.png"
+  },
+  {
+    "id": 4328,
+    "title": "Core Values",
+    "time": "3:06",
+    "seconds": 186,
+    "popularity": 342,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "MudiG",
+      "url": "/artist/mudig"
+    },
+    "genres": [
+      {
+        "name": "Corporate",
+        "url": "/corporate"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Energetic",
+        "url": "/energetic"
+      },
+      {
+        "name": "Soulful",
+        "url": "/soulful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__concentric-circles-or-intersecting-shapes-in-warm-__82649.jpeg"
+  },
+  {
+    "id": 5108,
+    "title": "Simply Moving",
+    "time": "0:59",
+    "seconds": 59,
+    "popularity": 58,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "MudiG",
+      "url": "/artist/mudig"
+    },
+    "genres": [
+      {
+        "name": "Electronic",
+        "url": "/electronic"
+      },
+      {
+        "name": "Corporate",
+        "url": "/corporate"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Happy",
+        "url": "/happy"
+      },
+      {
+        "name": "Energetic",
+        "url": "/energetic"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__ondas-doradas-fluyen-en-el-aire-como-ecos-de-un-ri__34704.jpeg"
+  },
+  {
+    "id": 5348,
+    "title": "Circuit Drift",
+    "time": "2:00",
+    "seconds": 120,
+    "popularity": 17,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "MudiG",
+      "url": "/artist/mudig"
+    },
+    "genres": [
+      {
+        "name": "Electronic",
+        "url": "/electronic"
+      },
+      {
+        "name": "Lounge",
+        "url": "/lounge"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Energetic",
+        "url": "/energetic"
+      },
+      {
+        "name": "Elegant",
+        "url": "/elegant"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__a-soft-minimalist-3d-illustration-style-with-smoot__4900.jpeg"
+  },
+  {
+    "id": 3386,
+    "title": "Rico Merengue",
+    "time": "1:42",
+    "seconds": 102,
+    "popularity": 29,
+    "is_active": true,
+    "is_premium": false,
+    "artist": {
+      "name": "MudiG",
+      "url": "/artist/mudig"
+    },
+    "genres": [
+      {
+        "name": "Latin",
+        "url": "/latin"
+      }
+    ],
+    "moods": [
+      {
+        "name": "Groovy",
+        "url": "/groovy"
+      },
+      {
+        "name": "Energetic",
+        "url": "/energetic"
+      },
+      {
+        "name": "Playful",
+        "url": "/playful"
+      }
+    ],
+    "cover_url": "https://s3.amazonaws.com/freepik-tunes/covers/freepik__a-tropical-scene-featuring-a-stylish-young-cuban-m__51625.jpeg"
+  }
+]

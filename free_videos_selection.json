@@ -1,0 +1,538 @@
+{
+  "tropical": [
+    {
+      "id": 28983,
+      "name": "rayons lumineux sur la colline verdoyante",
+      "quality": "4k",
+      "duration": "00:00:19",
+      "term": "tropical forest drone"
+    },
+    {
+      "id": 3384756,
+      "name": "côte tropicale vierge et abondante avec des palmiers à noix de coco et la mer des caraïbes azur. beau paysage. vue aérienne depuis un drone",
+      "quality": "4k",
+      "duration": "00:00:13",
+      "term": "caribbean"
+    },
+    {
+      "id": 3535453,
+      "name": "vue aérienne d'une plage tropicale avec des palmiers et de l'eau turquoise",
+      "quality": "4k",
+      "duration": "00:00:13",
+      "term": "caribbean"
+    }
+  ],
+  "massage": [
+    {
+      "id": 2844821,
+      "name": "masseuse donnant un massage à une femme",
+      "quality": "4k",
+      "duration": "00:00:32",
+      "term": "massage"
+    },
+    {
+      "id": 2851323,
+      "name": "une fille en bikini reçoit un traitement de spa à l'intérieur.",
+      "quality": "4k",
+      "duration": "00:00:20",
+      "term": "massage"
+    },
+    {
+      "id": 6125033,
+      "name": "Relaxing Back Massage",
+      "quality": "4k",
+      "duration": "00:00:16",
+      "term": "massage"
+    },
+    {
+      "id": 2856877,
+      "name": "masseuse donnant un massage à un homme",
+      "quality": "4k",
+      "duration": "00:00:17",
+      "term": "massage"
+    },
+    {
+      "id": 5966657,
+      "name": "Close-up of a person receiving a relaxing neck and shoulder massage",
+      "quality": "4k",
+      "duration": "00:00:30",
+      "term": "massage"
+    },
+    {
+      "id": 5966609,
+      "name": "Woman receives a relaxing back massage at a spa",
+      "quality": "4k",
+      "duration": "00:00:39",
+      "term": "massage"
+    },
+    {
+      "id": 2851649,
+      "name": "vue de haut d'une femme qui reçoit un massage",
+      "quality": "4k",
+      "duration": "00:00:13",
+      "term": "massage"
+    },
+    {
+      "id": 6124990,
+      "name": "Massage and Relaxation",
+      "quality": "4k",
+      "duration": "00:00:40",
+      "term": "massage"
+    },
+    {
+      "id": 6125050,
+      "name": "Relaxing Spa Treatment",
+      "quality": "4k",
+      "duration": "00:00:22",
+      "term": "massage"
+    },
+    {
+      "id": 6124963,
+      "name": "thérapie de massage",
+      "quality": "4k",
+      "duration": "00:00:21",
+      "term": "massage"
+    },
+    {
+      "id": 6125069,
+      "name": "séance de massage thérapeutique",
+      "quality": "4k",
+      "duration": "00:00:19",
+      "term": "massage therapy"
+    },
+    {
+      "id": 6124958,
+      "name": "Relaxing massage therapy session",
+      "quality": "4k",
+      "duration": "00:00:10",
+      "term": "massage therapy"
+    },
+    {
+      "id": 6125066,
+      "name": "Massage and Bodywork for Wellness",
+      "quality": "4k",
+      "duration": "00:00:24",
+      "term": "massage therapy"
+    },
+    {
+      "id": 6125086,
+      "name": "Relaxing Facial Massage",
+      "quality": "4k",
+      "duration": "00:00:23",
+      "term": "massage therapy"
+    },
+    {
+      "id": 6124973,
+      "name": "Massage therapy session for relaxation and wellness",
+      "quality": "4k",
+      "duration": "00:00:26",
+      "term": "massage therapy"
+    },
+    {
+      "id": 6125032,
+      "name": "Relaxing Back Massage",
+      "quality": "4k",
+      "duration": "00:00:18",
+      "term": "massage therapy"
+    },
+    {
+      "id": 6125065,
+      "name": "Leg Massage for Relaxation and Wellness",
+      "quality": "4k",
+      "duration": "00:00:29",
+      "term": "massage therapy"
+    },
+    {
+      "id": 6125051,
+      "name": "Relaxing herbal compress massage",
+      "quality": "4k",
+      "duration": "00:00:19",
+      "term": "massage therapy"
+    },
+    {
+      "id": 1851553,
+      "name": "une physiothérapeute donne un massage à la main à un garçon patient 4k",
+      "quality": "4k",
+      "duration": "00:00:12",
+      "term": "hand massage"
+    },
+    {
+      "id": 3544231,
+      "name": "massage des mains",
+      "quality": "4k",
+      "duration": "00:00:10",
+      "term": "hand massage"
+    },
+    {
+      "id": 2809765,
+      "name": "homme se faisant masser",
+      "quality": "4k",
+      "duration": "00:00:11",
+      "term": "hand massage"
+    },
+    {
+      "id": 5966663,
+      "name": "Professional Hand Massage for Relaxation and Wellness",
+      "quality": "4k",
+      "duration": "00:00:27",
+      "term": "hand massage"
+    },
+    {
+      "id": 2855887,
+      "name": "homme utilisant de l'huile corporelle",
+      "quality": "4k",
+      "duration": "00:00:11",
+      "term": "hand massage"
+    },
+    {
+      "id": 2803909,
+      "name": "homme se faisant masser",
+      "quality": "4k",
+      "duration": "00:00:12",
+      "term": "hand massage"
+    },
+    {
+      "id": 5966659,
+      "name": "A close-up of a professional masseuse performing a hand massage on a client at a spa.",
+      "quality": "4k",
+      "duration": "00:00:12",
+      "term": "hand massage"
+    },
+    {
+      "id": 2806672,
+      "name": "femme utilisant de l'huile essentielle",
+      "quality": "4k",
+      "duration": "00:00:13",
+      "term": "hand massage"
+    },
+    {
+      "id": 2827076,
+      "name": "homme se faisant masser",
+      "quality": "4k",
+      "duration": "00:00:07",
+      "term": "hand massage"
+    },
+    {
+      "id": 6125074,
+      "name": "séance de massage thérapeutique",
+      "quality": "4k",
+      "duration": "00:00:29",
+      "term": "body massage"
+    },
+    {
+      "id": 3549099,
+      "name": "une femme reçoit un massage du dos dans un spa.",
+      "quality": "4k",
+      "duration": "00:00:23",
+      "term": "body massage"
+    },
+    {
+      "id": 5966603,
+      "name": "A person receives a relaxing back massage at a spa",
+      "quality": "4k",
+      "duration": "00:00:38",
+      "term": "body massage"
+    },
+    {
+      "id": 5966652,
+      "name": "A person receiving a relaxing back massage at a spa",
+      "quality": "4k",
+      "duration": "00:00:12",
+      "term": "body massage"
+    },
+    {
+      "id": 5966664,
+      "name": "Close-up of a person receiving a relaxing leg massage",
+      "quality": "4k",
+      "duration": "00:00:23",
+      "term": "body massage"
+    },
+    {
+      "id": 2789729,
+      "name": "une femme reçoit un massage des jambes.",
+      "quality": "4k",
+      "duration": "00:00:13",
+      "term": "massage spa"
+    },
+    {
+      "id": 1742712,
+      "name": "masseuse donnant un massage à une femme",
+      "quality": "4k",
+      "duration": "00:00:25",
+      "term": "massage oil"
+    },
+    {
+      "id": 3549134,
+      "name": "massage du dos au spa",
+      "quality": "4k",
+      "duration": "00:00:11",
+      "term": "massage oil"
+    },
+    {
+      "id": 3544173,
+      "name": "massage du dos avec une application d'huile essentielle",
+      "quality": "4k",
+      "duration": "00:00:05",
+      "term": "massage oil"
+    },
+    {
+      "id": 1194865,
+      "name": "masseuse redonnant un massage à une femme",
+      "quality": "4k",
+      "duration": "00:00:17",
+      "term": "massage oil"
+    },
+    {
+      "id": 1194864,
+      "name": "masseuse donnant un massage des jambes à une femme",
+      "quality": "4k",
+      "duration": "00:00:27",
+      "term": "massage oil"
+    },
+    {
+      "id": 2845301,
+      "name": "Femme recevant un massage",
+      "quality": "4k",
+      "duration": "00:00:16",
+      "term": "massage close up"
+    },
+    {
+      "id": 6125077,
+      "name": "Massage on leg with oil",
+      "quality": "4k",
+      "duration": "00:00:33",
+      "term": "massage close up"
+    },
+    {
+      "id": 3544189,
+      "name": "une femme recevant un massage du dos",
+      "quality": "4k",
+      "duration": "00:00:20",
+      "term": "back massage"
+    },
+    {
+      "id": 1742326,
+      "name": "physiothérapeute faisant un massage du dos",
+      "quality": "4k",
+      "duration": "00:00:24",
+      "term": "back massage"
+    },
+    {
+      "id": 3544165,
+      "name": "séance de massage",
+      "quality": "4k",
+      "duration": "00:00:06",
+      "term": "back massage"
+    },
+    {
+      "id": 6124988,
+      "name": "A person receiving a back massage",
+      "quality": "4k",
+      "duration": "00:00:37",
+      "term": "back massage"
+    },
+    {
+      "id": 3543748,
+      "name": "une femme recevant un massage du dos",
+      "quality": "4k",
+      "duration": "00:00:08",
+      "term": "back massage"
+    },
+    {
+      "id": 6124974,
+      "name": "séance de massage des jambes",
+      "quality": "4k",
+      "duration": "00:00:19",
+      "term": "leg massage"
+    },
+    {
+      "id": 2840413,
+      "name": "masseuse donnant un massage des jambes à une femme",
+      "quality": "4k",
+      "duration": "00:00:23",
+      "term": "leg massage"
+    },
+    {
+      "id": 3549160,
+      "name": "séance de massage des jambes",
+      "quality": "4k",
+      "duration": "00:00:14",
+      "term": "leg massage"
+    },
+    {
+      "id": 6124962,
+      "name": "Relaxing Leg Massage",
+      "quality": "4k",
+      "duration": "00:00:15",
+      "term": "leg massage"
+    },
+    {
+      "id": 3549111,
+      "name": "massage des jambes",
+      "quality": "4k",
+      "duration": "00:00:10",
+      "term": "leg massage"
+    },
+    {
+      "id": 2801583,
+      "name": "une femme qui se fait masser.",
+      "quality": "4k",
+      "duration": "00:00:19",
+      "term": "leg massage"
+    },
+    {
+      "id": 2763204,
+      "name": "femme recevant un massage des jambes",
+      "quality": "4k",
+      "duration": "00:00:15",
+      "term": "leg massage"
+    },
+    {
+      "id": 3543735,
+      "name": "massage des jambes",
+      "quality": "4k",
+      "duration": "00:00:05",
+      "term": "leg massage"
+    },
+    {
+      "id": 2847025,
+      "name": "une femme qui se fait masser.",
+      "quality": "4k",
+      "duration": "00:00:14",
+      "term": "foot massage"
+    },
+    {
+      "id": 2812561,
+      "name": "homme se faisant masser",
+      "quality": "4k",
+      "duration": "00:00:09",
+      "term": "foot massage"
+    },
+    {
+      "id": 2743544,
+      "name": "un gros plan d'une femme thérapeute massant les pieds de son patient",
+      "quality": "4k",
+      "duration": "00:00:15",
+      "term": "foot massage"
+    },
+    {
+      "id": 3544166,
+      "name": "massage des pieds",
+      "quality": "4k",
+      "duration": "00:00:05",
+      "term": "foot massage"
+    },
+    {
+      "id": 2807144,
+      "name": "une femme qui se fait masser.",
+      "quality": "4k",
+      "duration": "00:00:14",
+      "term": "foot massage"
+    },
+    {
+      "id": 2796651,
+      "name": "homme se faisant masser",
+      "quality": "4k",
+      "duration": "00:00:16",
+      "term": "foot massage"
+    },
+    {
+      "id": 3543797,
+      "name": "séance de thérapie par ventouses",
+      "quality": "4k",
+      "duration": "00:00:07",
+      "term": "cupping"
+    },
+    {
+      "id": 2855451,
+      "name": "des couples se reposent dans la piscine d'une station thermale.",
+      "quality": "4k",
+      "duration": "00:00:13",
+      "term": "wellness spa"
+    },
+    {
+      "id": 2930290,
+      "name": "nature morte de bougies allumées avec un bâton d'encens et des serviettes douces dans le cadre d'une décoration de jour de spa relaxante",
+      "quality": "4k",
+      "duration": "00:00:20",
+      "term": "wellness spa"
+    },
+    {
+      "id": 2900683,
+      "name": "vue aérienne sur la nature morte de bougies allumées et de bâton d'encens avec plante verte et serviettes dans le cadre de la décoration du jour du spa 1",
+      "quality": "4k",
+      "duration": "00:00:20",
+      "term": "wellness spa"
+    },
+    {
+      "id": 6375346,
+      "name": "Massage therapy for leg",
+      "quality": "4k",
+      "duration": "00:00:23",
+      "term": "body treatment"
+    },
+    {
+      "id": 3549095,
+      "name": "une femme recevant un massage du dos et des épaules dans un spa",
+      "quality": "4k",
+      "duration": "00:00:13",
+      "term": "body treatment"
+    },
+    {
+      "id": 5966703,
+      "name": "Physiotherapist Performing Neck Adjustment on Patient",
+      "quality": "4k",
+      "duration": "00:00:25",
+      "term": "physiotherapy"
+    },
+    {
+      "id": 1725765,
+      "name": "un thérapeute de cultures massant le pied d'un patient dans une clinique",
+      "quality": "4k",
+      "duration": "00:00:14",
+      "term": "physiotherapy"
+    },
+    {
+      "id": 2747903,
+      "name": "physiothérapeute donnant un massage du genou à une patiente",
+      "quality": "4k",
+      "duration": "00:00:11",
+      "term": "physiotherapy"
+    },
+    {
+      "id": 2854115,
+      "name": "massothérapeute avec client",
+      "quality": "4k",
+      "duration": "00:00:15",
+      "term": "physiotherapy"
+    },
+    {
+      "id": 1603545,
+      "name": "physiothérapeute donnant un massage",
+      "quality": "4k",
+      "duration": "00:00:15",
+      "term": "physiotherapy"
+    },
+    {
+      "id": 2296653,
+      "name": "un physiothérapeute donne un massage à une patiente",
+      "quality": "4k",
+      "duration": "00:00:15",
+      "term": "physiotherapy"
+    },
+    {
+      "id": 3177230,
+      "name": "physiothérapeute donnant un massage du genou à une patiente",
+      "quality": "4k",
+      "duration": "00:00:10",
+      "term": "physiotherapy"
+    },
+    {
+      "id": 1851495,
+      "name": "physiothérapeute assistant un homme avec un exercice des jambes 4k",
+      "quality": "4k",
+      "duration": "00:00:20",
+      "term": "physical therapy"
+    }
+  ]
+}

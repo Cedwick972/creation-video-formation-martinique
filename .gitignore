@@ -1,0 +1,11 @@
+# Vidéos B-roll (trop volumineuses pour git)
+b-roll/**/*.mp4
+b-roll/**/*.mov
+b-roll/**/*.avi
+b-roll/**/*.mkv
+
+# Fichiers temporaires
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
